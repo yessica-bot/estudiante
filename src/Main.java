@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Crear la instancia de Estudiante correctamente
-        Estudiante estudiante = new Estudiante(
+        estudiante estudiante = new estudiante(
                 "Yessica",
                 "Ingeniería en Informática",
                 25
