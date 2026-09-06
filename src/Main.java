@@ -20,5 +20,7 @@ public class Main {
 
         // Usar la instancia
         estudiante.mostrarInformacion();
+
+        scaner.close();
     }
 }
