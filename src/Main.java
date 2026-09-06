@@ -1,9 +1,22 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-        // Crear la instancia de Estudiante correctamente
+        Scanner scaner = new Scanner(System.in);
+
+        System.out.println("Ingrese nombre: ");
+        String nombre = scaner.nextLine();
+
+        System.out.println("Ingrese carrera: ");
+        String carrera = scaner.nextLine();
+
+        System.out.println("Ingrese edad: ");
+        int edad = scaner.nextInt();
+
         Estudiante estudiante = new Estudiante(
-        "Yessica","Ingeniería en Informática", 25);;
+                "Yessica","Ingeniería en Informática", 27);;
+
 
         // Usar la instancia
         estudiante.mostrarInformacion();
