@@ -15,10 +15,9 @@ public class Main {
         int edad = scaner.nextInt();
 
         Estudiante estudiante = new Estudiante(
-                "Yessica","Ingeniería en Informática", 27);;
+                "Yessica","Ingeniería en Informática", 27);
 
 
-        // Usar la instancia
         estudiante.mostrarInformacion();
 
         scaner.close();
