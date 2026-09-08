@@ -20,11 +20,14 @@ public class Main {
 
         estudiante.mostrarInformacion();
 
-        if (edad >= 18){
-            System.out.println("Autorizado.");
+        if (edad < 18){
+            System.out.println("Usted es menor de edad.");
+        }
+        else if (edad < 30){
+            System.out.println("Estudiante lolo");
         }
         else{
-            System.out.println("Denegado.");
+            System.out.println("Estudiante abansado");
         }
 
         scaner.close();
