@@ -15,7 +15,7 @@ public class Main {
         int edad = scaner.nextInt();
 
         Estudiante estudiante = new Estudiante(
-                "Yessica","Ingeniería en Informática", 27);
+                nombre,carrera,edad);
 
 
         estudiante.mostrarInformacion();
