@@ -20,6 +20,13 @@ public class Main {
 
         estudiante.mostrarInformacion();
 
+        if (edad >= 18){
+            System.out.println("Autorizado.");
+        }
+        else{
+            System.out.println("Denegado.");
+        }
+
         scaner.close();
     }
 }
