@@ -6,7 +6,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        int opcion = -1; // variable de control
+        int opcion = -1;
 
         while (opcion != 0) {
             System.out.println("***** Sistema Estudiante *****");
@@ -16,7 +16,7 @@ public class Main {
 
             System.out.print("Seleccionar una opcion: ");
             opcion = scanner.nextInt();
-            scanner.nextLine(); // limpiar salto de línea
+            scanner.nextLine();
 
             if (opcion == 1) {
                 System.out.println("Ingrese nombre: ");
