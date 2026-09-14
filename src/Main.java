@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+
+
         Scanner scaner = new Scanner(System.in);
 
         System.out.println("Ingrese nombre: ");
@@ -20,6 +22,9 @@ public class Main {
 
         estudiante.mostrarInformacion();
 
+        for (int i = 1; i <=5; i++){
+            System.out.println("Procesando estudiante" + i);
+        }
         if (edad < 18){
             System.out.println("Usted es menor de edad.");
         }
